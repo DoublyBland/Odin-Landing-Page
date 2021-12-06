@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+}
+
+.header ul {
+    display: flex;
+    text-decoration: none;
+}
+
+.header li {
+    list-style-type: none;
+}
+
+.opening {
+    display: flex;
+}
+
+.images {
+    display: flex;
+}
+
+.call {
+    display: flex;
+}
+
+.footer {
+    margin-top: auto;
+}
