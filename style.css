@@ -9,7 +9,6 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: #1F2937;
-    color: white;
 }
 
 .header ul {
@@ -19,20 +18,73 @@ body {
 
 .header li {
     list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header div {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .opening {
     display: flex;
+    background-color: #1F2937;
+}
+
+.open-left h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.open-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.information div {
+    font-size: 18px;
+    color: rgb(37, 37, 37);
 }
 
 .images {
     display: flex;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+
 .call {
     display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB;
 }
 
 .footer {
     margin-top: auto;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
 }
